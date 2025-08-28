@@ -4,6 +4,8 @@ This is the main page displaying Markdown located at [content/index.md](https://
 
 Move to [about](/about) page.
 
+![Library](/Images/mariia-zakatiura-t7z-y-zz-o-cx-0-unsplash.jpg "Büüücher"){:width='500'}
+
 ## Manage your Contents
 
 Create new pages or modify the existing ones in `content/` directory.
@@ -14,7 +16,7 @@ You can find an example of querying contents and rendering them in a [catch-all 
 
 ## Integrate Vue Component
 
-::alert{color="green"}
+::alert{color="red"}
 The current [alert](https://github.com/nuxt/starter/blob/content/app/components/Alert.vue) and the [counter](https://github.com/nuxt/starter/blob/content/app/components/Counter.vue) below are `Vue` components integrated into the Markdown.
 ::
 
