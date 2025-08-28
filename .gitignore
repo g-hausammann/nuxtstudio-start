@@ -9,6 +9,9 @@ dist
 # Node dependencies
 node_modules
 
+# Visual Studio
+.vs
+
 # Logs
 logs
 *.log
