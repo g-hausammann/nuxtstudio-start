@@ -2,7 +2,7 @@ import { field, group } from '@nuxt/content/preview'
 
 export default defineNuxtSchema({
   appConfig: {
-    parent: group({
+    ui: group({
       title: 'UI',
       description: 'UI configuration',
       icon: 'i-ph-palette-fill',
@@ -14,6 +14,20 @@ export default defineNuxtSchema({
           icon: 'i-ph-palette',
           default: 'sky',
           required: ['sky', 'mint', 'rose', 'amber']
+        })
+        test: field({
+          type: 'array',
+          title: 'Test',
+          fields: {
+            name: field({
+              type: 'string',
+              title: 'Name'
+            }),
+            age: field({
+              type: 'number',
+              title: 'Age'
+            })
+          }
         })
       }
     })
