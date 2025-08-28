@@ -18,12 +18,6 @@ export default defineNuxtSchema({
         test: field({
           type: 'array',
           title: 'Test',
-          fields: {
-            name: field({
-              type: 'string',
-              title: 'Name'
-            })
-          }
         })
       }
     })
