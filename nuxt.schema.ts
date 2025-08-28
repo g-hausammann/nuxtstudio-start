@@ -14,7 +14,7 @@ export default defineNuxtSchema({
           icon: 'i-ph-palette',
           default: 'sky',
           required: ['sky', 'mint', 'rose', 'amber']
-        })
+        }),
         test: field({
           type: 'array',
           title: 'Test',
