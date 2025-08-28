@@ -22,10 +22,6 @@ export default defineNuxtSchema({
             name: field({
               type: 'string',
               title: 'Name'
-            }),
-            age: field({
-              type: 'number',
-              title: 'Age'
             })
           }
         })
