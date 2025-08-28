@@ -2,7 +2,7 @@
 
 This is the main page displaying Markdown located at [content/index.md](https://github.com/nuxt/starter/blob/content/content/index.md).
 
-Move to [about](/about) page.
+Move to [about](/about/about) page.
 
 ![Library](/Images/mariia-zakatiura-t7z-y-zz-o-cx-0-unsplash.jpg "Büüücher"){:width='500'}
 
