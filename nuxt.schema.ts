@@ -15,10 +15,6 @@ export default defineNuxtSchema({
           default: 'sky',
           required: ['sky', 'mint', 'rose', 'amber']
         }),
-        test: field({
-          type: 'array',
-          title: 'Test',
-        })
       }
     })
   }
